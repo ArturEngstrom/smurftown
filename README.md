@@ -37,4 +37,17 @@ or by:
 
 where the latter runs the program with the file that was generated though *make gen_data*
 
+## Output
+The program will either output the longest path. E.g `138 875 526 427`
+
+or return `No circular path found` if no path was found.
+
+## Debugging
+All circular paths with corresponding distances could later be found in the following txt.files:
+
+**all_cycles_final.txt**
+
+An additional file with all cycles are also made, where doublets are included. E.g. All three paths [1,4,6], [4,6,1] and [6,1,4] are included. This way the user can look at this file to debug when each cycle was found
+**all_cycles_including_doublets.txt**
+
 
