@@ -30,7 +30,6 @@ or by:
 where the latter is generated though a makefile.
 ## 2) Run program
 Run the program, either through:
-
 `python smurftown.py name_of_the_data_file.txt`
 
 or by:
